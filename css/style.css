@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font family added */
+
+*{
+  font-family: "Work Sans", system-ui;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fff9ff;
+}
+
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.display-flex{
+  display: flex;
+  align-items: center;
+}
+
+.align-center{
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.logo-text{
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+
+.title{
+  font-size: 95px;
+  font-weight: 800;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+
+.sub-title{
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 4px;
+}
+
+.section-title{
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 24px;
+}
+
+.para{
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  margin-bottom: 32px;
+}
+
+.para-plus{
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+button{
+  border-radius: 48px;
+  color: #ffffff;
+  padding: 21px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  transition: all .2s linear;
+  cursor: pointer;
+}
+
+.btn-1{
+  background: linear-gradient(145.00deg, #ff00ff 13.134%,#9933ff 87.942%);
+}
+
+.btn-2{
+  background: linear-gradient(145.00deg, #00ccff 13.134%,#3399ff 87.942%);
+}
+
+.btn-3{
+  background-color: #fff;
+  color: #ff00ff;
+}
+
+button:hover{
+  filter:  hue-rotate(10deg);
+}
+
+.lg-color{
+  background: -webkit-linear-gradient(-90.00deg, #ff00ff,#9933ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.white-color{
+  color: #fff;
+}
+/* global css ends */
