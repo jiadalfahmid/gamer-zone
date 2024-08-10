@@ -6,6 +6,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+/*     
+  outline: 1px solid red;
+  outline-offset: -1px;
+ */
+
 }
 
 body{
@@ -36,7 +44,7 @@ body{
   font-size: 45px;
   font-weight: 700;
   line-height: 120%;
-  margin-bottom: 24px;
+  margin-left: 24px;
 }
 
 .title{
@@ -107,7 +115,7 @@ button:hover{
   filter:  hue-rotate(10deg);
 }
 
-.lg-color{
+.brand-color{
   background: -webkit-linear-gradient(-90.00deg, #ff00ff,#9933ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -118,3 +126,33 @@ button:hover{
   color: #fff;
 }
 /* global css ends */
+
+/* nav section starts */
+.navbar{
+  justify-content: space-between;
+  margin: 32px auto;
+}
+
+.navbar ul{
+  gap: 2rem;
+}
+
+.social-nav{
+  border-radius: 8px;
+  padding: 17px 24px;
+  background: rgba(103, 48, 255, 0.1);
+  margin-bottom: 0;
+  gap: 24px;
+}
+
+.social-nav img{
+  width: 24px;
+}
+/* nav section ends */
+
+
+
+
+@media screen and (max-width: 576px) {
+  
+}
