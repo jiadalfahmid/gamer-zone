@@ -25,6 +25,10 @@ body{
   margin: 0 auto;
 }
 
+.desktop-hidden{
+  display: none;
+}
+
 .display-flex{
   display: flex;
   align-items: center;
@@ -60,6 +64,7 @@ body{
   font-weight: 600;
   line-height: 120%;
   margin-bottom: 4px;
+  text-transform: uppercase;
 }
 
 .section-title{
@@ -89,7 +94,7 @@ body{
 button{
   border-radius: 48px;
   color: #ffffff;
-  padding: 21px 40px;
+  padding: 18px 36px;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -99,6 +104,7 @@ button{
 }
 
 .btn-1{
+  margin-right: 10px;
   background: linear-gradient(145.00deg, #ff00ff 13.134%,#9933ff 87.942%);
 }
 
@@ -149,10 +155,93 @@ button:hover{
   width: 24px;
 }
 /* nav section ends */
+/* banner section starts */
+.banner{
+  position: relative;
+}
+
+.banner .banner-bg-img{
+  position: absolute;
+  z-index: -1;
+  max-width: 48%;
+}
+
+.banner-container{
+  gap: 4rem;
+}
+
+.banner-text{
+  width: 65%;
+}
+
+.buttons{
+  gap: 20px;
+}
+
+.banner-img img{
+  width: 100%;
+}
+.fa-play{
+  padding: 1% 1% 1% 1.5%;
+  border-radius: 50%;
+  border: 1px solid #0b0223;
+  font-size: 12px;
+}
+
+/* banner section ends */
 
 
 
 
 @media screen and (max-width: 576px) {
+  .container{
+    max-width: 90%;
+  }
+
+  .mobile-hidden{
+    display: none;
+  }
+
+  .desktop-hidden{
+    display: block;
+  }
+
+  .logo{
+    width: 20%;
+  }
   
+  .logo-text{
+    font-size: 32px;
+  }
+
+  .title{
+    font-size: 75px;
+  }
+
+  .sub-title{
+    font-size: 38px;
+    margin-top: 2rem;
+  }
+
+  .para, .para-plus{
+    font-size: 18px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 20%;
+  }
+
+  .banner-text{
+    width: 100%;
+  }
+
+  .banner .banner-bg-img{
+    bottom: 0;
+    max-width: 100%;
+    height: 50%;
+  }
+
+
+
+
 }
