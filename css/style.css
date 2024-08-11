@@ -172,7 +172,7 @@ button:hover{
 .banner .banner-bg-img{
   position: absolute;
   z-index: -1;
-  max-width: 43.5%;
+  max-width: 48%;
 }
 
 .banner-container{
@@ -201,6 +201,7 @@ button:hover{
 .gamer{
   margin: 5rem auto;
 }
+
 .gamer-img img{
   width:100%;
 }
@@ -209,6 +210,68 @@ button:hover{
   width: 68%;
 }
 /* gamer section ends */
+/* video cards section starts */
+.cards{
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card{
+  position: relative;
+  background-color: #0b0223;
+  height: 300px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 255px;
+}
+
+.card .video{
+  height: 100%;
+  max-width: 100%;
+  transition: all .2s linear;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.card .video:hover{
+  opacity: 70%;
+  outline: 3px solid #ff00ff;
+  outline-offset: -3px;
+}
+
+.hover-icons{
+  position: absolute;
+  top: 42%;
+  left: 42%;
+}
+
+.card:hover .hover-icons{
+  opacity: 100%;
+}
+
+.hover-icons{
+  opacity: 0%;
+}
+
+.hover-icons i{
+  font-size: 30px;
+  padding: 30% 30% 30% 40.5%;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+/* video cards section ends */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -268,6 +331,11 @@ button:hover{
   .gamer{
     flex-direction: column;
     margin: 3rem auto;
+  }
+
+  .cards{
+    flex-direction: column;
+    gap: 6rem;
   }
 
 
