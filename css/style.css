@@ -83,6 +83,16 @@ body{
   margin-bottom: 32px;
 }
 
+.para-1{
+  font-size: 22px;
+  margin: 2rem 0 1rem auto;
+}
+
+.para-2{
+  font-size: 26px;
+  font-weight: 700;
+}
+
 .para-plus{
   color: #0b0223;
   font-size: 20px;
@@ -104,7 +114,6 @@ button{
 }
 
 .btn-1{
-  margin-right: 10px;
   background: linear-gradient(145.00deg, #ff00ff 13.134%,#9933ff 87.942%);
 }
 
@@ -163,7 +172,7 @@ button:hover{
 .banner .banner-bg-img{
   position: absolute;
   z-index: -1;
-  max-width: 48%;
+  max-width: 43.5%;
 }
 
 .banner-container{
@@ -175,7 +184,7 @@ button:hover{
 }
 
 .buttons{
-  gap: 20px;
+  gap: 7%;
 }
 
 .banner-img img{
@@ -187,9 +196,19 @@ button:hover{
   border: 1px solid #0b0223;
   font-size: 12px;
 }
-
 /* banner section ends */
+/* gamer section starts */
+.gamer{
+  margin: 5rem auto;
+}
+.gamer-img img{
+  width:100%;
+}
 
+.gamer-text{
+  width: 68%;
+}
+/* gamer section ends */
 
 
 
@@ -200,6 +219,10 @@ button:hover{
 
   .mobile-hidden{
     display: none;
+  }
+
+  .mobile-center{
+    text-align: center;
   }
 
   .desktop-hidden{
@@ -226,12 +249,13 @@ button:hover{
   .para, .para-plus{
     font-size: 18px;
   }
-  .banner-container {
+  .banner-container{
     flex-direction: column-reverse;
     gap: 20%;
   }
 
-  .banner-text{
+  .banner-text,
+  .gamer-text{
     width: 100%;
   }
 
@@ -240,6 +264,12 @@ button:hover{
     max-width: 100%;
     height: 50%;
   }
+
+  .gamer{
+    flex-direction: column;
+    margin: 3rem auto;
+  }
+
 
 
 
