@@ -244,6 +244,7 @@ button:hover{
   position: absolute;
   top: 42%;
   left: 42%;
+  transition: all .2s linear;
 }
 
 .card:hover .hover-icons{
@@ -323,18 +324,68 @@ button:hover{
   width: 100%;
 }
 /* career section ends */
+/* category section starts */
+.category-container{
+  flex-wrap: wrap;
+  gap: 11px;
+  justify-content: center;
+  margin: 5rem auto;
+}
 
+.catagories p{
+  margin-bottom: 0;
+  transition: all .2s ease;
+}
 
+.catagories{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px 10px 10px;
+  gap: 10px;
+  border-radius: 50px;
+  background: #ffffff;
+  transition: all .2s linear;
+}
 
+.catagories:hover{
+  outline: 1.5px solid #ff00ff;
+  outline-offset: -1.5px;
+}
 
+.catagories:hover p{
+  color: #ff00ff;
+}
+/* category section ends */
+/* footer section starts */
+footer{
+  background: #0b0223;
+}
 
+.footer-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
 
+.footer-container .quick-links,
+.footer-container .policies{
+  flex-wrap: wrap;
+  margin: 3rem auto;
+  gap: 3rem;
+}
 
+.footer-container .social{
+  gap: 3rem;
+  flex-wrap: wrap;
+}
 
-
-
-
-
+.policies a,
+.copyright{
+  opacity: 80%;
+}
+/* footer section ends */
 
 
 @media screen and (max-width: 576px) {
@@ -425,6 +476,17 @@ button:hover{
   .careers .careers-img{
     margin-right: -15%;
   }
+
+  .footer-container{
+    padding: 3rem 0;
+  }
+
+  .footer-container .quick-links,
+  .footer-container .policies,
+  .footer-container .social{
+    gap: 1rem;
+    justify-content: center;
+}
 
 
 }
