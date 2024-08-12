@@ -214,6 +214,7 @@ button:hover{
 .cards{
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .card{
@@ -260,6 +261,52 @@ button:hover{
   border: 2px solid #fff;
 }
 /* video cards section ends */
+/* game section starts */
+.game{
+  margin-top: 10rem;
+}
+
+.game-container{
+  gap: 7rem;
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+}
+
+.game-text{
+  max-width: 50%;
+  padding: 2.5rem;
+}
+
+.game-img{
+  position: relative;
+  width: 50%;
+}
+
+.game-img .main{
+  width: 100%;
+}
+
+.float{
+  position: absolute;
+  width: 50%;
+}
+
+.game-img .top{
+  bottom: -15%;
+  left: -22%;
+}
+
+.game-img .bottom{
+  bottom: -15%;
+  right: -22%;
+}
+
+.game-bottom{
+  flex-direction: row-reverse;
+}
+
+
+/* game section ends */
 
 
 
@@ -338,7 +385,20 @@ button:hover{
     gap: 6rem;
   }
 
+  .game-container{
+    flex-direction: column;
+    gap: 0;
+    margin-top: 0;
+  }
 
+  .game-text{
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .game-img{
+    width: 69.4%;
+  }
 
 
 
