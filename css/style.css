@@ -304,10 +304,25 @@ button:hover{
 .game-bottom{
   flex-direction: row-reverse;
 }
-
-
 /* game section ends */
+/* career section starts */
+.careers{
+  background: linear-gradient(90.00deg, rgb(217, 66, 255) 13.134%,rgb(230, 66, 255) 87.942%);
+}
 
+.careers .careers-text{
+  padding-left:10%;
+  max-width: 50%;
+}
+
+.plus{
+  justify-content: space-between;
+}
+
+.careers .careers-img img{
+  width: 100%;
+}
+/* career section ends */
 
 
 
@@ -375,9 +390,11 @@ button:hover{
     height: 50%;
   }
 
-  .gamer{
+  .gamer,
+  .careers{
     flex-direction: column;
     margin: 3rem auto;
+    overflow: clip;
   }
 
   .cards{
@@ -400,6 +417,14 @@ button:hover{
     width: 69.4%;
   }
 
+  .careers .careers-text{
+    max-width: 90%;
+    padding: 20% 0 0 0;
+  }
+
+  .careers .careers-img{
+    margin-right: -15%;
+  }
 
 
 }
